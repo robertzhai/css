@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <span>this is first span <span class="font_class color_class" >this is another span </span></span>
+</div>
+<style>
+    span {
+        color: #2a7ae2;
+    }
+    div > span {
+        color: #aaa;
+    }
+    /*.font_class {*/
+        /*font-size: 50px;*/
+    /*}*/
+    /*.color_class {*/
+        /*color: #009926;*/
+    /*}*/
+    .font_class.color_class {
+        font-size: 80px;
+        color: red;
+    }
+
+
+</style>
+</body>
+</html>
